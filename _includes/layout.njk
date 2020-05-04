@@ -1,0 +1,23 @@
+{% set css %}
+  {% include "components/style.css" %}
+{% endset %}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Matthew Lynch</title>
+    <style>
+        {{ css | safe }}
+    </style>
+  </head>
+  <body>
+    <h1>Matthew Lynch</h1>
+    {{ content | safe }}
+    <footer>
+        <a href="/">about</a>
+        <a href="https://github.com/mslynch">github</a>
+        <a href="https://www.linkedin.com/in/mslynch95">linkedin</a>
+        <a href="/contact/">say hello</a>
+    </footer>
+  </body>
+</html>

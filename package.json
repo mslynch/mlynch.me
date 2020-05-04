@@ -1,0 +1,17 @@
+{
+  "name": "mlynch.me",
+  "version": "1.0.0",
+  "description": "content for https://mlynch.me",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mslynch/mlynch.me.git"
+  },
+  "author": "Matthew Lynch",
+  "dependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  }
+}
