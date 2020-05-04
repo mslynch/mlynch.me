@@ -1,24 +1,19 @@
-{% set css %}
-  {% include "components/style.css" %}
-{% endset %}
-
 <!doctype html>
 <html lang="en">
   <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Matthew Lynch</title>
-    <style>
-        {{ css | safe }}
-    </style>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
   </head>
   <body>
     <h1>Matthew Lynch</h1>
     {{ content | safe }}
     <footer>
-        <a href="/">about</a>
-        <a href="https://github.com/mslynch">github</a>
-        <a href="https://www.linkedin.com/in/mslynch95">linkedin</a>
-        <a href="/contact/">say hello</a>
+      <a href="/">about</a>
+      <a href="https://github.com/mslynch">github</a>
+      <a href="https://www.linkedin.com/in/mslynch95">linkedin</a>
+      <a href="/contact/">say hello</a>
     </footer>
   </body>
 </html>
